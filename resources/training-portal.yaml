@@ -1,1 +1,21 @@
-
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: TrainingPortal
+metadata:
+  name: partnerse
+spec:
+  portal:
+    ingress:
+      domain: workshop.captainvirtualization.in
+#     secret: secret-workshop
+    registration:
+      type: anonymous
+#      enabled: true
+    credentials:
+      admin:
+        username: admin
+        password: Welcome11!
+  workshops:
+  - name: vsphere-tanzu-workshop
+    capacity: 25
+    expires: 300m
+    orphaned: 45m
