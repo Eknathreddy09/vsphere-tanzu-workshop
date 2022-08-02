@@ -1,1 +1,28 @@
 
+
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: Workshop
+metadata:
+  name: vsphere-tanzu-workshop
+spec:
+  title: vSphere with Tanzu Workshop - Partner Demo
+  description: Workshop created to demo the product vSphere with Tanzu
+  vendor: eduk8s.io
+  difficulty: beginner
+  duration: 15m
+  url: https://github.com/Eknathreddy09/vsphere-tanzu-workshop
+  content:
+     files: github.com/Eknathreddy09/vsphere-tanzu-workshop?ref=main
+     image: workshopimagemain.azurecr.io/workshopimagemain:latest
+   # image: docker.io/eknath009/workshop-privaterepo:latest
+  session:
+    namespaces:
+      budget: small
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      console:
+        enabled: true
+      editor:
+        enabled: true
