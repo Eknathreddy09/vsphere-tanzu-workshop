@@ -1,9 +1,13 @@
 name: Markdown Sample
-
 modules:
     activate:
     - workshop-overview
     - setup-environment
-    - exercises/01-TKG
-    - exercises/02-tmc
+    - exercises/01-TKGs
+    - exercises/02-TKGs
+    - exercises/03-TKGs
+    - exercises/04-TKGs
+    - exercises/05-TKGs
+    - exercises/06-TKGs
+    - exercises/07-TKGs
     - workshop-summary
