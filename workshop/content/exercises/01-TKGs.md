@@ -16,3 +16,8 @@ kubectl version
 ```execute-all
 export SESSION_NAME={{ session_namespace }}
 ```
+
+```dashboard:create-dashboard
+name: vcenter
+url: https://vc01.h2o-4-954.h2o.vmware.com/ui
+```
