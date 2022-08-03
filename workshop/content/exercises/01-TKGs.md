@@ -16,4 +16,3 @@ kubectl version
 ```execute-all
 export SESSION_NAME={{ session_namespace }}
 ```
-
