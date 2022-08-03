@@ -1,12 +1,24 @@
 modules:
     workshop-overview:
-        name: Contents Covered in Module 1
+        name: Contents Covered in workshop - vSphere with Tanzu
         exit_sign: Next
     setup-environment:
         name: Workshop overview
         exit_sign: Start Workshop
-    exercises/01-TKG:
-        name: TKG workshop using Tanzu CLI
+    exercises/01-TKGs:
+        name: Verify the vCenter
+    exercises/02-TKGs:
+        name: Verify Supervisor cluster
+    exercises/03-TKGs:
+        name: Create TKG cluster
+    exercises/04-TKGs:
+        name: Deploy an application
+    exercises/05-TKGs:
+        name: Scaling the cluster
+    exercises/06-TKGs:
+        name: Deploy vSphere pods
+    exercises/07-TKGs:
+        name: Cleanup
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
