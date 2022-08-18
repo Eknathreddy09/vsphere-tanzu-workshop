@@ -19,7 +19,7 @@ export SESSION_NAME={{ session_namespace }}
 
 ```dashboard:create-dashboard
 name: vcenter Server
-url: http://captainvirtualization.com/
+url: https://vc01.h2o-4-1115.h2o.vmware.com/ui
 ```
 
 
